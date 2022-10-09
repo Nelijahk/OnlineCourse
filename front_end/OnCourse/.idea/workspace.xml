@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc40231a-79f9-40d6-84bc-c9acdad2c50d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Pages/AboutTeacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Pages/AboutTeacher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Pages/Course.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Pages/Course.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Pages/EditAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Pages/EditAccount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Pages/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Pages/MyCourses.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Pages/MyCourses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Pages/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Pages/Signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lab5" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29CjJSJpx9RbYWQ37S2wF3zdvEf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Ilona/4 semestr/Web_project/OnCourse&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;C:/Ilona/4 semestr/Web_project/OnCourse/my-app/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Ilona\4 semestr\Web_project\OnCourse" />
+      <recent name="C:\Ilona\4 semestr\Web_project\OnCourse\my-app\src" />
+      <recent name="C:\Ilona\4 semestr\Web_project\OnCourse\my-app\src\Images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Ilona\4 semestr\Web_project\OnCourse\my-app\src" />
+      <recent name="C:\Ilona\4 semestr\Web_project\OnCourse\my-app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="Teacher.Teacher render" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/my-app" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/my-app/src/Tests/AboutTeacher.test.js" />
+      <test-names>
+        <test-name value="Teacher" />
+        <test-name value="Teacher render" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Teacher.Test teacher" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/my-app" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/my-app/src/Tests/AboutTeacher.test.js" />
+      <test-names>
+        <test-name value="Teacher" />
+        <test-name value="Test teacher" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/OnCourse/html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/OnCourse/html/login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="lint:fix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint:fix" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.login.html" />
+        <item itemvalue="npm.lint:fix" />
+        <item itemvalue="Jest.Teacher.Test teacher" />
+        <item itemvalue="Jest.Teacher.Teacher render" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc40231a-79f9-40d6-84bc-c9acdad2c50d" name="Changes" comment="" />
+      <created>1652623890245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652623890245</updated>
+      <workItem from="1652623891398" duration="30589000" />
+      <workItem from="1654243970787" duration="1393000" />
+      <workItem from="1654356019779" duration="1062000" />
+      <workItem from="1654357132479" duration="60518000" />
+      <workItem from="1654546690158" duration="5208000" />
+      <workItem from="1654578703646" duration="1751000" />
+      <workItem from="1654958652812" duration="10320000" />
+      <workItem from="1654973453462" duration="21795000" />
+      <workItem from="1655035842701" duration="14534000" />
+      <workItem from="1655129298239" duration="2332000" />
+      <workItem from="1655281353599" duration="4558000" />
+      <workItem from="1655330713241" duration="17227000" />
+      <workItem from="1664201523875" duration="37000" />
+      <workItem from="1665329870106" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/OnCourse$Teacher_Teacher_render.info" NAME="Teacher.Teacher render Coverage Results" MODIFIED="1655015807263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

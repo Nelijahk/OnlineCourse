@@ -1,0 +1,72 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnCourse</title>
+    <link rel = "icon" href = "../images/icon2.ico" type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="../js/logout.js"></script>
+    <script defer src="../js/account.js"></script>
+    <script defer src="../js/delete_user.js"></script>
+</head>
+
+<body>
+<nav>
+    <a href = "index.html"><img src = "../images/Logo_light.png" class = "icon" alt = "Home"></a>
+    <div class = "dropdown">
+        <button class = "dropdown_btn">Categories</button>
+        <div class="dropdown_content">
+            <a href="#">Business</a>
+            <a href="#">Development</a>
+            <a href="#">Design</a>
+            <a href="#">IT</a>
+            <a href="#">Marketing</a>
+        </div>
+    </div>
+    <form>
+        <input type="text" placeholder="Search...">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    <button href = "teacher.html" class = "teacher">For teacher</button>
+    <div class = "regist">
+        <a href = "login.html" class = "log_btn" id = "log_btn">Log in</a>
+        <a href = "signup.html" class = "sign_btn" id = "sign_btn" >Sign up</a>
+        <button type="submit" class="logout_btn" id = "logout_btn">Log out</button>
+        <a href = "account.html" class = "acc_btn" id = "acc_btn" >Account</a>
+    </div>
+</nav>
+
+<div class = "account">
+    <h1>Personal information</h1>
+
+    <hr>
+
+    <p id="first_name"> First Name: </p>
+    <p id="last_name"> Last Name: </p>
+    <p id="user_name"> Username: </p>
+    <p id="email"> Email: </p>
+    <p id="status"> Status: </p>
+
+    <hr>
+
+    <div class = "butt">
+        <button type="submit" class="edit_btn" id = "edit_btn">Edit</button>
+        <button type="submit" class="del_btn" id = "del_btn">Delete</button>
+    </div>
+</div>
+
+<hr><footer>
+    <a href = "index.html"><img src = "../images/Logo_light.png" class = "icon" alt = "Home"></a>
+    <p> 2022 OnCourse, Inc </p>
+    <a href = "#">Terms</a>
+    <a href = "#">About</a>
+    <div class = "links">
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+    </div>
+</footer>
+</body>
+</html>

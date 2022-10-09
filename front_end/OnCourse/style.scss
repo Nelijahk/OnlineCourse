@@ -1,0 +1,499 @@
+$font: Times, Times New Roman, serif;
+$color: white;
+
+body{
+	background-color: $color;
+}
+
+nav{
+	//overflow: hidden;
+	position: sticky; 
+    background-color: $color;
+    height: 10%;
+	width: 100%;
+    display: flex;
+	text-align: justify;
+	align-items: center;
+    justify-content: space-between;
+	box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+	float: left;
+	margin-bottom: 2%;
+	
+	//Logo
+	.icon{
+		float: left;
+		width: 300px;
+        height: auto;
+	}
+	
+	//For categories
+	.dropdown{
+		position: relative;
+		display: inline-block;
+		z-index: 2;	
+	}
+	
+	.dropdown_btn{
+		font-family: $font;
+		background-color: white;
+		color: black;
+		padding: 10px 30px;
+		font-size: 17px;
+		border: none;	
+	}
+	.dropdown_btn:hover{
+		border: 1px solid #5B5B5B;
+		color: #FF9600;
+	}
+	.dropdown_content{
+		display: none;
+		position: absolute;
+		background-color: #F7F7F7;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 2;
+	}	
+	.dropdown_content a {
+		font-family: $font;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		z-index: 2;
+	}
+	.dropdown_content a:hover{
+		background-color: #f1f1f1;
+		color: #FF9600;
+	}
+	.dropdown:hover .dropdown_content{
+		display: block;
+	}
+		
+	//For search
+	form{
+	display: inline-block;
+		* {
+			box-sizing: border-box;
+		}
+		input{
+			display: inline-block;
+			font-family: $font;
+			padding: 10px 120px;
+			font-size: 17px;
+			border: 1px solid #5B5B5B;
+			border-radius: 40px;
+			float: left;
+			width: 80%;
+			background: $color;
+			text-align: start;
+		}
+		button{
+			display: inline-block;
+			float: left;
+			width: 20%;
+			padding: 10px;
+			background: #FFB750;
+			color: white;
+			font-size: 20px;
+			border: 1px solid #5B5B5B;
+			border-radius: 50px;
+			//border-left: none;
+			cursor: pointer;
+		}
+		button:hover {
+			background: #FF9600;
+		}
+	}
+	
+	.teacher{
+		display: inline-block;
+		font-family: $font;
+		background-color: white;
+		color: black;
+		padding: 10px 30px;
+		font-size: 17px;
+		border: none;	
+	}
+	.teacher:hover{
+		border: 1px solid #5B5B5B;
+		color: #FF9600;
+	}
+	
+	.regist{
+		float: right;
+		
+		//For log in button
+		.log_btn{
+			font-family: $font;
+			font-size: 17px;
+			display: inline-block;
+			border: 1px solid #5B5B5B;
+			background: #FFB750;
+			color: #fff;
+			padding: 10px 30px;
+			text-decoration: none;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+		.log_btn:hover{
+			background: #FF9600;
+		}
+	
+		//For sign up button
+		.sign_btn{
+			font-family: $font;
+			font-size: 17px;
+			display: inline-block;
+			border: 1px solid #5B5B5B;
+			background: #FFB750;
+			color: #fff;
+			padding: 10px 30px;
+			text-decoration: none;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+		.sign_btn:hover{
+			background: #FF9600;
+		}
+		
+		@media screen and (max-width:800px) {
+		.log_btn, .sign_btn{
+			display: none;
+			}
+		}
+		
+		.logout_btn{
+			font-family: $font;
+			font-size: 17px;
+			display: inline-block;
+			border: 1px solid #5B5B5B;
+			background: #FFB750;
+			color: #fff;
+			padding: 10px 30px;
+			text-decoration: none;
+			margin: 4px 2px;
+			cursor: pointer;
+			//display: none;
+		}
+		.logout_btn:hover{
+			background: #FF9600;
+		}
+	
+		.acc_btn{
+			//display: none;
+			font-family: $font;
+			font-size: 17px;
+			display: inline-block;
+			border: 1px solid #5B5B5B;
+			background: #FFB750;
+			color: #fff;
+			padding: 10px 30px;
+			text-decoration: none;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+		.acc_btn:hover{
+			background: #FF9600;
+		}
+		
+		@media screen and (max-width:800px) {
+		.logout_btn, .acc_btn{
+			display: none;
+			}
+		}
+	}
+	
+	@media screen and (max-width:1020px) {
+	.dropdown, .teacher{
+		display: none;
+		}
+	}
+	@media screen and (max-width:800px) {
+	form{
+		display: none;
+		}
+	.icon{
+		width: 200px;
+		}
+	}
+	
+	
+	.mob_dropdown{
+		position: relative;
+		display: inline-block;
+	}
+	.mob_dropdown img{
+		display:none;
+		align-items: center;
+		text-align: center;
+		float: right;
+		width: 30%;
+		height: auto;
+	}
+	.mob_dropdown_btn:hover{
+		border: 1px solid #5B5B5B;
+	}
+	.mob_dropdown_content{
+		display: none;
+		position: absolute;
+		background-color: #F7F7F7;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	}
+	.mob_dropdown_content a {
+		font-family: $font;
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+	.mob_dropdown_content a:hover{
+		background-color: #f1f1f1;
+		color: #FF9600;
+	}
+	.mob_dropdown:hover .mob_dropdown_content{
+		display: block;
+	}
+	
+	@media screen and (max-width:800px) {
+	.mob_dropdown img{
+		display: inline-block;
+		}
+	}
+}	
+
+.main{
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	
+	.foto{
+		width: 100%;
+		height: auto;
+	}
+
+	h1{
+		position: absolute;
+		font-size: 3.5vw;
+		top: 30%;
+		width: 100%;
+		text-align: center;
+	
+		span{
+			color: black;
+			font-family: font;
+			background: $color;
+			padding: 10px;
+			box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.2);
+		}
+	}
+}
+
+
+.popular{
+	padding-top: 1%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+    justify-content: space-between;
+	text-align-last: center;
+	width: 100;
+	a{
+		text-align: center;
+		justify-content: space-between;
+		text-align-last: justify;
+		img{
+			width: 95%;
+			height: auto;
+			object-fit: contain;
+		}
+		img:hover{
+			box-shadow: 0px 0px 5px 5px #B19C6A;
+		}
+		
+		@media screen and (max-width:800px) {
+		img{
+			width: 40%;
+			height: auto;
+		}	
+		}
+	}
+	
+}
+
+@media screen and (max-width:800px) {
+	.popular{
+		display: inline-block;
+	}
+	}
+
+hr{
+	margin-top: 7%;
+}
+
+
+.sign{
+	margin: 0 auto;
+	width: 40%;	
+	
+	* {
+		box-sizing: border-box;
+			
+	}
+	
+	.contaiter{
+		padding: 16px;
+		background-color: white;	
+	}
+		input{
+			width: 100%;
+			padding: 15px;
+			margin: 5px 0 22px 0;
+			display: inline-block;
+			border: none;
+			background: #f1f1f1;
+		}
+		input:focus{
+			background-color: #ddd;
+			outline: none;
+		}
+	
+		hr{
+			border: 1px solid #f1f1f1;
+			margin-bottom: 25px;
+		}
+	
+		.registerbtn {
+			width: 100%;
+			font-family: $font;
+			font-size: 17px;
+			display: inline-block;
+			border: 1px solid #5B5B5B;
+			background: #FFB750;
+			color: #fff;
+			padding: 10px 30px;
+			text-decoration: none;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+
+		.registerbtn:hover {
+			background: #FF9600;
+		}
+	
+		a{
+			color: dodgerblue;
+		}
+		
+		.acc, .login{
+			text-align: center;
+		}
+}
+
+.account{
+	margin: 0 auto;
+	width: 40%;	
+	
+	p{
+		width: 100%;
+		padding: 15px;
+		margin: 5px 0 22px 0;
+		display: inline-block;
+		border: none;
+		background: #f1f1f1;
+	}
+	
+	hr{
+		border: 1px solid #f1f1f1;
+		margin-bottom: 25px;
+	}
+	
+	.butt{
+
+		.edit_btn, .del_btn {
+			width: 48%;
+			font-family: $font;
+			font-size: 17px;
+			display: inline-block;
+			border: 1px solid #5B5B5B;
+			background: #FFB750;
+			color: #fff;
+			padding: 10px 30px;
+			text-decoration: none;
+			margin: 4px 2px;
+			cursor: pointer;
+			float: left;
+		}
+
+		.edit_btn:hover, .del_btn:hover {
+			background: #FF9600;
+		}
+	}
+	
+	.logout_btn{
+	
+		width: 100%;
+		font-family: $font;
+		font-size: 17px;
+		display: inline-block;
+		border: 1px solid #5B5B5B;
+		background: #FFB750;
+		color: #fff;
+		padding: 10px 30px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+
+	.logout_btn:hover{
+		background: #FF9600;
+	}
+}
+
+
+footer{
+	display: flex;
+	text-align: justify;
+	align-items: center;
+    justify-content: space-between;
+	//height: 0px;
+	width: 100%;
+	
+	.icon{
+		float: left;
+		width: 150px;
+        height: auto;
+	}
+	a{
+		font-family: $font;
+		background-color: white;
+		color: black;
+		padding: 10px 30px;
+		font-size: 17px;
+		border: none;
+		text-decoration: none;
+	}
+	a:hover{
+		border: 1px solid #5B5B5B;
+		color: #FF9600;
+	}
+	
+	@media screen and (max-width:800px) {
+	a{
+		padding: 5px 15px;
+		font-size: 14px;
+	}
+	.icon{
+		width: 100px;
+		}
+	}
+	
+	@media screen and (max-width:600px) {
+	a{
+		display: none;
+	}
+	}
+}
+
